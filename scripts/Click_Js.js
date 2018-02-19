@@ -2,7 +2,7 @@ var click = 0;
 
 function increment(e) {
     var x = e.clientX - 240;
-    var y = e.clientY - 160;
+    var y = e.clientY - 165;
     var dist = Math.sqrt(y*y + x*x);
     if(dist < 50){
         click++;

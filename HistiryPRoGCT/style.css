@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+h1 {
+   font-family: Lobster;
+   text-align: center;
+
+ }
+body {
+  background-color: #dfe6f4;
+}
+
+ h2 {
+    text-align: center;
+  }
+#logo {
+  width: 8%;
+
+}
+.blockquote {
+   font-size: 22px;
+   font-weight: bold;
+}

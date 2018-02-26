@@ -1,86 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>re</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<head>
+  <meta charset="utf-8">
+  <title>re</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
   <link href="styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script type="text/javascript">
-$(function () {
-  $('[data-toggle="popover"]').popover({
-    trigger: 'click'
-  });
-  $("#hdbtn").click(function(){
-          $(".collapse").collapse('hide');
+  <script type="text/javascript">
+    $(function() {
+      $('[data-toggle="popover"]').popover({
+        trigger: 'click'
       });
-      $("#hdbtn1").click(function(){
-              $(".collapse").collapse('hide');
-          });
-});
-$(document).ready(function(){
+      $("#hdbtn").click(function() {
+        $(".collapse").collapse('hide');
+      });
+      $("#hdbtn1").click(function() {
+        $(".collapse").collapse('hide');
+      });
+    });
+    $(document).ready(function() {
 
-    $("#phnnmb").click(function(){
-            $(".popover").popover('hide');
-        });
-        $("#maillmy").click(function(){
-                $(".popover").popover('hide');
-            });
-});
-</script>
+      $("#phnnmb").click(function() {
+        $(".popover").popover('hide');
+      });
+      $("#maillmy").click(function() {
+        $(".popover").popover('hide');
+      });
+    });
+  </script>
 
-  </head>
-  <body>
+</head>
+
+<body>
 
 
 
-    <div class="jumbotron" >
+  <div class="jumbotron">
 
-        <h1 class="display-3"><i class="far fa-address-book"></i> Contacts</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        <button type="button" class="btn btn-primary" data-container="body" title="E-mail" data-toggle="popover" data-placement="left"
-        data-content="yurilev4@gmail.com" id="phnnmb"><i class="far fa-envelope"></i> E-mail</button>
+    <h1 class="display-3"><i class="far fa-address-book"></i> Contacts</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <button type="button" class="btn btn-primary" data-container="body" title="E-mail" data-toggle="popover" data-placement="left" data-content="yurilev4@gmail.com" id="phnnmb"><i class="far fa-envelope"></i> E-mail</button>
 
-    <button type="button" class="btn btn-primary" data-container="body" title="Phone Number" data-toggle="popover" data-placement="bottom"
-    data-content="+380933029243" id="maillmy"><i class="far fa-address-book"></i> Phone</button>
+    <button type="button" class="btn btn-primary" data-container="body" title="Phone Number" data-toggle="popover" data-placement="bottom" data-content="+380933029243" id="maillmy"><i class="far fa-address-book"></i> Phone</button>
 
     <button type="button" class="btn btn-primary"><i class="fab fa-telegram"></i> Telegram</button>
 
     <button type="button" class="btn btn-primary"><i class="fab fa-facebook-square"></i> Facebook</button>
-    </div>
+  </div>
 
-    <div role="tablist" aria-multiselectable="true">
+  <div role="tablist" aria-multiselectable="true">
     <p>
-  <a class="btn btn-primary" data-toggle="collapse" role="tab" href="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+      <a class="btn btn-primary" data-toggle="collapse" role="tab" href="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
     one
   </a>
-  <a class="btn btn-primary" data-toggle="collapse" role="tab" href="#collapseExample1" aria-expanded="true" aria-controls="collapseExample" id="hdbtn">
+      <a class="btn btn-primary" data-toggle="collapse" role="tab" href="#collapseExample1" aria-expanded="true" aria-controls="collapseExample" id="hdbtn">
     one change
   </a>
-  <button class="btn btn-primary" type="button" role="tab" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample" id="hdbtn1">
+      <button class="btn btn-primary" type="button" role="tab" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample" id="hdbtn1">
     two change
   </button>
-  <button class="btn btn-primary" type="button" role="tab" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="true" aria-controls="collapseExample1">
+      <button class="btn btn-primary" type="button" role="tab" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="true" aria-controls="collapseExample1">
     thre
   </button>
-</p>
+    </p>
 
-<div class="collapse" role="tabpanel" id="collapseExample">
-  <div class="card  card-block">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    <div class="collapse" role="tabpanel" id="collapseExample">
+      <div class="card  card-block">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+
+    </div>
+    <div class="collapse" role="tabpanel" id="collapseExample1">
+      <div class="card card-block">
+        trree
+      </div>
+
+    </div>
   </div>
+</body>
 
-</div>
-<div class="collapse" role="tabpanel" id="collapseExample1">
-  <div class="card card-block" >
-    trree
-  </div>
-
-</div>
-</div>
-  </body>
 </html>

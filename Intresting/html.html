@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<link  href="css.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-     <div class="container-fluid col">
-    <div class="col-xs-12 col-md-auto"  id="info">
-       <div class="container jbb" >
-      <div class="jumbotron">
-<h1 class="display-3">Hello, world!</h1>
-<p class="lead message">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-<hr class="my-4">
-<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-<p class="lead">
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</p>
-</div>
-            </div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <link href="css.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="container-fluid text-center" id="content">
+    <div class= "col-xs-12 col-md-auto">
+      <div class="container jbb">
+        <div class="jumbotron">
+          <h1 class="display-3">Генератор цитат</h1>
+          <div  class="message lead">
+            <h4 id="quote">Цитата</h4>
           </div>
+          <hr class="my-4">
+          <p id="autor" style="font-style:italic">-Автор</p>
+          <p class="lead">
+            <button id="getQuote" class="btn btn-primary btn-lg">Новая Цитата</button>
+          </p>
         </div>
-  </body>
+      </div>
+    </div>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="js.js"></script>
+</body>
+
 </html>

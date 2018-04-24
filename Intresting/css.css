@@ -3,12 +3,9 @@
   padding-bottom: 10vh;
   background{ height: block; }
 
-  #info {
-    background-image: url(http://dreamstop.com/wp-content/uploads/2013/07/office-dream-meaning.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: block; }
+  #autor {
+    font-style: italic;
+  }
 
 body {
       position: relative;

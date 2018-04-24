@@ -24,7 +24,7 @@ $(document).ready(function() {
       }
     });
   }
-  
+
   $('#getQuote').on('click', function(event) {
     event.preventDefault;
     getNewQuote();
